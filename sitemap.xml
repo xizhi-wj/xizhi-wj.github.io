@@ -2,16 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/manifest.json</loc>
+    <loc>https://xizhi-wj.github.io/posts/9520.html</loc>
     
-    <lastmod>2023-05-22</lastmod>
+    <lastmod>2023-05-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/posts/4a17b156.html</loc>
+    <loc>https://xizhi-wj.github.io/posts/0.html</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xizhi-wj.github.io/posts/0.html</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xizhi-wj.github.io/posts/4a17b156.html</loc>
+    
+    <lastmod>2023-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xizhi-wj.github.io/manifest.json</loc>
     
     <lastmod>2023-05-22</lastmod>
     
@@ -21,13 +48,41 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2023-05-22</lastmod>
+    <loc>https://xizhi-wj.github.io/</loc>
+    <lastmod>2023-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>https://xizhi-wj.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2023-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://xizhi-wj.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2023-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xizhi-wj.github.io/categories/%E5%A4%A7%E5%AD%A6/</loc>
+    <lastmod>2023-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xizhi-wj.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2023-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
