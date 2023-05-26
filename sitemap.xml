@@ -29,25 +29,7 @@
   </url>
   
   <url>
-    <loc>https://xi-zhi.xyz/posts/4a17b156.html</loc>
-    
-    <lastmod>2023-05-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xi-zhi.xyz/posts/0.html</loc>
-    
-    <lastmod>2023-05-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xi-zhi.xyz/posts/0.html</loc>
+    <loc>https://xi-zhi.xyz/posts/e618e1da.html</loc>
     
     <lastmod>2023-05-26</lastmod>
     
@@ -98,17 +80,24 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://xi-zhi.xyz/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://xi-zhi.xyz/tags/hexo/</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xi-zhi.xyz/categories/%E5%A4%A7%E5%AD%A6/</loc>
+    <loc>https://xi-zhi.xyz/tags/blog/</loc>
+    <lastmod>2023-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://xi-zhi.xyz/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
