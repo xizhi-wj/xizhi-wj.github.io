@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>docker基本使用</title>
+      <link href="/posts/9391a560.html"/>
+      <url>/posts/9391a560.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="docker-安装"><a href="#docker-安装" class="headerlink" title="docker 安装"></a>docker 安装</h3><blockquote><p><a href="https://docs.docker.com/get-docker/"><strong>docker 下载</strong></a></p></blockquote><h3 id="对于-docker-的理解"><a href="#对于-docker-的理解" class="headerlink" title="对于 docker 的理解"></a>对于 docker 的理解</h3><blockquote><p>使用 docker 我们不用再担心环境问题了，比如当别人的代码能运行，到我们自己电脑上就不能运行，这是因为环境不同，代码水土不服，而 docker 能解决这个问题，因为它是把代码迁移过来的同时把环境也迁移过来了，相当于我们移植花的时候，把花的土壤也一起移植过去</p></blockquote><h3 id="镜像基本命令"><a href="#镜像基本命令" class="headerlink" title="镜像基本命令"></a>镜像基本命令</h3><blockquote><p>启动 docker 之后在终端执行命令</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">docker images <span class="comment"># 查看所有镜像</span></span><br><span class="line">docker images -q <span class="comment"># 查看所有镜像的id</span></span><br><span class="line">docker search &lt;镜像名称&gt; <span class="comment"># 查找镜像</span></span><br><span class="line">docker pull &lt;镜像名称&gt; <span class="comment"># 拉取镜像到本地</span></span><br><span class="line">docker rmi &lt;镜像<span class="built_in">id</span>&gt; <span class="comment"># 删除镜像</span></span><br><span class="line">docker rmi `docker images -q` <span class="comment"># 删除所有镜像</span></span><br></pre></td></tr></table></figure><h3 id="容器基本命令"><a href="#容器基本命令" class="headerlink" title="容器基本命令"></a>容器基本命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">docker ps <span class="comment"># 查看正在运行的容器</span></span><br><span class="line">docker ps -a <span class="comment"># 查看所有的容器</span></span><br><span class="line">docker run &lt;options&gt; <span class="comment"># 运行容器</span></span><br><span class="line"><span class="comment"># options</span></span><br><span class="line"><span class="comment"># -i 保持容器运行</span></span><br><span class="line"><span class="comment"># -t 为容器分配一个伪终端</span></span><br><span class="line"><span class="comment"># -d 后台运行容器</span></span><br><span class="line"><span class="comment"># -it 创建一个交互式容器</span></span><br><span class="line"><span class="comment"># -id 创建一个后台的容器</span></span><br><span class="line"><span class="comment"># --name 为容器取名</span></span><br><span class="line"></span><br><span class="line">docker <span class="built_in">exec</span> &lt;参数&gt; <span class="comment"># 执行容器相关的命令</span></span><br><span class="line">docker start &lt;容器名称&gt; <span class="comment"># 启动容器</span></span><br><span class="line">docker stop &lt;容器名称&gt; <span class="comment"># 关闭容器</span></span><br><span class="line">docker <span class="built_in">rm</span> &lt;容器名称&gt; <span class="comment"># 删除容器</span></span><br><span class="line">docker inspect &lt;容器名称&gt; <span class="comment"># 查看容器的信息</span></span><br></pre></td></tr></table></figure><h3 id="配置数据卷"><a href="#配置数据卷" class="headerlink" title="配置数据卷"></a>配置数据卷</h3><blockquote><p>docker 是基于宿主机运行的，我们运行 docker 容器生成的文件会存放在容器中，如果我们需要把文件同步到宿主机的话，就需要配置数据卷</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker run ... -v 宿主机目录(文件):容器内目录(文件) ...</span><br><span class="line"></span><br><span class="line"><span class="comment"># 例子</span></span><br><span class="line">docker run -it --name data -v ./volume centos:7 /bin/bash <span class="comment"># 启动一个centos容器，并在当前目录创建一个volume目录当做数据卷</span></span><br></pre></td></tr></table></figure><h3 id="docker-部署-mysql"><a href="#docker-部署-mysql" class="headerlink" title="docker 部署 mysql"></a>docker 部署 mysql</h3><ul><li>拉取 mysql 镜像</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker search mysql</span><br><span class="line">docker pull mysql</span><br></pre></td></tr></table></figure><ul><li>创建并进入容器</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -it --name mysql-container -p 3306:3306 -e MYSQL_ROOT_PASSWORD=&lt;your_password&gt; -d mysql</span><br></pre></td></tr></table></figure><ul><li>连接数据库</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql -uroot -p&lt;上一步设置的密码&gt;</span><br></pre></td></tr></table></figure><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><blockquote><p>docker 是一个很好使用的工具，当我们写好代码需要交付的时候，直接把镜像交过去就好了，这样会把环境一起带过去，然后另一方使用的时候就不会再有环境问题，同时我们不想自己动手配置 mysql、nginx、tomcat 等服务的时候，可以直接使用 docker，可以大大减少我们配置环境产生的问题</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> docker </tag>
+            
+            <tag> mac </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>python使用爬虫爬取酷狗音乐</title>
       <link href="/posts/2afba6c0.html"/>
       <url>/posts/2afba6c0.html</url>

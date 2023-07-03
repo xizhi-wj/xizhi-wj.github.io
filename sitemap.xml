@@ -56,6 +56,15 @@
   </url>
   
   <url>
+    <loc>https://xi-zhi.xyz/posts/9391a560.html</loc>
+    
+    <lastmod>2023-07-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xi-zhi.xyz/posts/2afba6c0.html</loc>
     
     <lastmod>2023-07-03</lastmod>
@@ -153,6 +162,20 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://xi-zhi.xyz/tags/docker/</loc>
+    <lastmod>2023-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xi-zhi.xyz/tags/mac/</loc>
+    <lastmod>2023-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/python/</loc>
@@ -267,6 +290,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://xi-zhi.xyz/categories/docker/</loc>
+    <lastmod>2023-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://xi-zhi.xyz/categories/python/</loc>
