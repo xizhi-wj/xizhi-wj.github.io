@@ -4,7 +4,7 @@
   <url>
     <loc>https://xi-zhi.xyz/manifest.json</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,16 @@
   <url>
     <loc>https://xi-zhi.xyz/link/index.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xi-zhi.xyz/model/index.html</loc>
+    
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +31,7 @@
   <url>
     <loc>https://xi-zhi.xyz/mymac/index.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +40,7 @@
   <url>
     <loc>https://xi-zhi.xyz/tags/index.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +49,7 @@
   <url>
     <loc>https://xi-zhi.xyz/todolist/index.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +58,7 @@
   <url>
     <loc>https://xi-zhi.xyz/tools/index.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +67,7 @@
   <url>
     <loc>https://xi-zhi.xyz/posts/9391a560.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +76,7 @@
   <url>
     <loc>https://xi-zhi.xyz/posts/2afba6c0.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +85,7 @@
   <url>
     <loc>https://xi-zhi.xyz/posts/bd1d8f32.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +94,7 @@
   <url>
     <loc>https://xi-zhi.xyz/posts/e618e1da.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +103,7 @@
   <url>
     <loc>https://xi-zhi.xyz/posts/0.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,7 +112,7 @@
   <url>
     <loc>https://xi-zhi.xyz/posts/759a7587.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -112,7 +121,7 @@
   <url>
     <loc>https://xi-zhi.xyz/posts/85c1fe2e.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -121,7 +130,7 @@
   <url>
     <loc>https://xi-zhi.xyz/posts/8ff97ce2.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -130,7 +139,7 @@
   <url>
     <loc>https://xi-zhi.xyz/posts/9520.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -139,7 +148,7 @@
   <url>
     <loc>https://xi-zhi.xyz/about/index.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -148,7 +157,16 @@
   <url>
     <loc>https://xi-zhi.xyz/categories/index.html</loc>
     
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xi-zhi.xyz/experiment/index.html</loc>
+    
+    <lastmod>2023-08-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -157,7 +175,7 @@
 
   <url>
     <loc>https://xi-zhi.xyz/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -165,126 +183,126 @@
   
   <url>
     <loc>https://xi-zhi.xyz/tags/docker/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/mac/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/python/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/%E7%88%AC%E8%99%AB/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/node-js/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/three-js/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/javascript/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/particleEffect/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/VR/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/%E9%BC%A0%E6%A0%87%E7%89%B9%E6%95%88/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/canvas/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/java/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/%E5%90%8E%E7%AB%AF/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/%E8%B7%A8%E5%9F%9F/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/%E7%94%9F%E6%97%A5/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/hexo/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/tags/blog/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -293,35 +311,35 @@
   
   <url>
     <loc>https://xi-zhi.xyz/categories/docker/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/categories/python/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/categories/%E5%90%8E%E7%AB%AF/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xi-zhi.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2023-07-03</lastmod>
+    <lastmod>2023-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

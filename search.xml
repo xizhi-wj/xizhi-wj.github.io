@@ -298,6 +298,17 @@
     
     
     <entry>
+      <title>开发试验场</title>
+      <link href="/experiment/index.html"/>
+      <url>/experiment/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/js/ali_font.js"/>
       <url>/js/ali_font.js</url>
@@ -323,6 +334,17 @@
       <title></title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>model</title>
+      <link href="/model/index.html"/>
+      <url>/model/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
